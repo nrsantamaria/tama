@@ -76,7 +76,9 @@ class Tama
 
   def feed
     if @status == "you never play with me, I'm running away!" || @status == "R.I.P, I died"
-      # "DEAD: " << @name
+      # name = @name
+      # Tama.clear
+      # Tama.new(name)
     else
       @food_level += 1
       @happy_level -= 1
@@ -87,7 +89,9 @@ class Tama
 
   def sleep
     if @status == "R.I.P, I died" || @status == "you never play with me, I'm running away!"
-      # "DEAD: " << @name 
+      # name = @name
+      # Tama.clear
+      # Tama.new(name)
     else
       @sleep_level += 1
       @happy_level -= 1
