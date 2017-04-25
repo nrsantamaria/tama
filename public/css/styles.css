@@ -1,16 +1,90 @@
-body{
+body {
+  background-image: url("/img/background.png");
+}
+.tama-shell{
   background-image: url("/img/main.png");
   background-repeat: no-repeat;
   background-position: top;
   text-align: center;
 }
 
-.cool {
-  margin-top: 30px;
+#reaction{
+  height: 355px;
+  width: 342px;
+  margin-top: 32.5%;
+  margin-right: .9%;
+  border: solid 10px;
+  border-color: rgb(238, 110, 74);
+  border-radius: 50px;
 }
 
+
+#talk {
+  margin-top: 15%;
+  margin-left: 27%;
+  padding: 10px;
+  background-color: rgba(240, 127, 147, .9);
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+/*.cool {
+  margin-top: 30px;
+}*/
+
+.name-it {
+  text-align: center;
+  margin-top: 25%;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(240, 127, 147, .9);
+  border-radius: 20px;
+}
+
+.name-it label {
+  margin-top: 15%;
+  font-size: 60px;
+  display: block;
+}
+
+.name-it input {
+  margin-top: 5%;
+  margin-bottom: 10px;
+}
+
+#but1 {
+  margin-right: 3%;
+  margin-top: 0%;
+  border-radius: 50%;
+  border-color: rgb(38, 28, 23);
+  width: 80px;
+  height: 80px;
+  background-color: rgb(208, 127, 147)
+}
+
+#but2 {
+  margin-right: 3%;
+  margin-top: 4.7%;
+  border-radius: 50%;
+  border-color: rgb(38, 28, 23);
+  width: 80px;
+  height: 80px;
+  background-color: rgb(27, 171, 188)
+}
+
+#but3 {
+  margin-top: 0%;
+  border-radius: 50%;
+  border-color: rgb(38, 28, 23);
+  width: 80px;
+  height: 80px;
+  background-color: rgb(220, 196, 91)
+
+}
 .butts {
   display: inline;
+
 }
 
 .form-control {

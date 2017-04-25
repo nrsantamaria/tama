@@ -1,5 +1,27 @@
-<%= # sample output html
-# <h2><%= @message %></h2>
-# <hr>
-# <a href="/" class="btn btn-danger">reset</a>
-%>
+<div class="tama-shell">
+  <div class="container">
+    <div>
+      <% @my_tamas.each() do |tama| %>
+      <%= "<img id='reaction' src='#{tama.reaction()}'/>" %>
+      <% end %>
+    </div>
+    <form class="butts" action="/feed" method="post">
+      <button id="but1" class="btn cool btn-danger">Feed!</button>
+    </form>
+    <form class="butts" action="/sleep" method="post">
+      <button id="but2" class="btn cool btn-primary">Nap time!</button>
+    </form>
+    <form class="butts" action="/play" method="post">
+      <button id="but3" class="btn cool btn-success">Play!</button>
+    </form>
+  </div>
+
+  <div id="talk">
+    <h2>
+      "<% @my_tamas.each() do |tama| %>
+      <%= tama.name() %>
+      <%= tama.status() %>
+      <% end %>"
+    </h2>
+  </div>
+</div>

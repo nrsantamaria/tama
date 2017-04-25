@@ -1,30 +1,9 @@
- <h2>
-   <% @my_tamas.each() do |tama| %>
-   <%= tama.name() %>
-   <%= tama.status() %>
-   <% end %>
- </h2>
 
-<div class="container">
-  <form  action="/name" method="post">
+<div class="name-it container">
+  <form id="name" action="/name" method="post">
     <label for="name">Name your Tama!</label>
     <input class="form-control" type="text" name="name">
-    <button class="btn btn-default">Name your Tamagotchi</button>
+    <br>
+    <button class="btn btn-success">Name your Tamagotchi</button>
   </form>
-
-  <form class="butts" action="/feed" method="post">
-    <button class="btn cool btn-danger">Feed!</button>
-  </form>
-  <form class="butts" action="/sleep" method="post">
-    <button class="btn cool btn-primary">Nap time!</button>
-  </form>
-  <form class="butts" action="/play" method="post">
-    <button class="btn cool btn-success">Play!</button>
-  </form>
-
-  <div>
-    <% @my_tamas.each() do |tama| %>
-    <%= "<img id='reaction' src='#{tama.reaction()}'/>" %>
-    <% end %>
-  </div>
 </div>
