@@ -14,14 +14,14 @@
     <form class="butts" action="/play" method="post">
       <button id="but3" class="btn cool btn-success">Play!</button>
     </form>
+    <div id="talk">
+      <h2>
+        "<% @my_tamas.each() do |tama| %>
+        <%= tama.name() %>
+        <%= tama.status() %>
+        <% end %>"
+      </h2>
+    </div>
   </div>
 
-  <div id="talk">
-    <h2>
-      "<% @my_tamas.each() do |tama| %>
-      <%= tama.name() %>
-      <%= tama.status() %>
-      <% end %>"
-    </h2>
-  </div>
 </div>
