@@ -1,0 +1,19 @@
+body{
+  background-image: url("/img/main.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+}
+
+.cool {
+  margin-top: 30px;
+}
+
+.butts {
+  display: inline;
+}
+
+.form-control {
+  width: 200px;
+  display: inline;
+}
