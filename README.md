@@ -1,18 +1,25 @@
-# <!--PROJECT NAME HERE-->
+# Tama
 
-<!--PROJECT DESCRIPTION HERE-->
+## Authors
+_Nicole Santamaria and Tanner Eustice_
+
+## Description
+Remember tamagotchis? This will take you back.
 
 ### Prerequisites
 
-Web browser with ES6 compatibility
+* Web browser with ES6 compatibility
 Examples: Chrome, Safari
-
-Ruby <!--VERSION HERE-->
-Bundler
+* Ruby
+* Bundler
 
 ### Installing
 
-Installation is quick and easy! First you can open this link <!--HEROKU LINK HERE--> to see the webpage in action live online. Or you can clone this repository to your machine, navigate to the file path in your terminal, and run 'app.rb' by typing '$ruby app.rb'. If you chose to clone the repository, after you run 'app.rb' you will need to copy the localhost path into your web browswer. The standard localhost for Sinatra is port 4567
+* Clone repository: `$ git clone https://github.com/nrsantamaria/tama`
+* Navigate to folder: `$ cd tama`
+* Install gems: `$ bundle install`
+* Start server: `$ ruby app.rb`
+* In your browser visit: `localhost:4567`
 
 ## Built With
 
@@ -24,16 +31,16 @@ Installation is quick and easy! First you can open this link <!--HEROKU LINK HER
 * ES6
 * Jquery https://jquery.com/
 
-## Specifications
+## Known Bugs
 
-| behavior |  input   |  output  |
-|----------|:--------:|:--------:|
-<!--SPECS GO HERE-->
- 
-## Authors
+_You can still play with the tama after it dies..._
 
-* <!--YOUR NAME HERE-->
+## Support and contact details
 
-## License
+_Please contact Nicole Santamaria at NicoleRSantamaria@gmail.com if you have any questions._
 
-Copyright © 2017 <!--YOUR NAME HERE-->
+### License
+
+*This software is licensed under MIT license.*
+
+Copyright (c) 2017 **_Nicole Santamaria_**
